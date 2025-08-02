@@ -1,6 +1,7 @@
 import os
 import pickle
 import faiss
+from dotenv import load_dotenv
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import openai
@@ -115,6 +116,7 @@ if query:
         st.write(answer)
     else:
         st.warning("I'm sorry, I couldn't find any relevant information to answer your question.")
+
 
 
 
