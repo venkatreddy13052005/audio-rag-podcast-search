@@ -3,6 +3,7 @@ pydub
 torch
 numpy
 faiss-cpu
-
+sentence-transformers
+streamlit
 
 
