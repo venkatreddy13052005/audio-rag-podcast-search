@@ -1,6 +1,6 @@
 import os
 import pickle
-import faiss.cpu as faiss
+import faiss
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -117,4 +117,5 @@ if query:
         st.write(answer)
     else:
         st.warning("I'm sorry, I couldn't find any relevant information to answer your question.")
+
 
