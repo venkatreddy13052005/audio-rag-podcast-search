@@ -2,3 +2,7 @@ openai-whisper
 pydub
 torch
 numpy
+faiss-cpu
+
+
+
