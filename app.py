@@ -1,6 +1,7 @@
 import os
 import pickle
-import faiss
+import faiss.cpu as faiss
+
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
@@ -116,3 +117,4 @@ if query:
         st.write(answer)
     else:
         st.warning("I'm sorry, I couldn't find any relevant information to answer your question.")
+
