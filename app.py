@@ -4,7 +4,7 @@ import faiss
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from dotenv import load_dotenv
+import load_dotenv
 import openai
 import streamlit as st
 import time
@@ -117,5 +117,6 @@ if query:
         st.write(answer)
     else:
         st.warning("I'm sorry, I couldn't find any relevant information to answer your question.")
+
 
 
